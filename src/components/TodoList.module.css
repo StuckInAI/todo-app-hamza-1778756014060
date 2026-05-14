@@ -1,0 +1,43 @@
+.wrapper {
+  background: var(--color-surface);
+}
+
+.toggleAllRow {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px 4px;
+}
+
+.toggleAllBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition), background var(--transition);
+}
+
+.toggleAllBtn:hover {
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.toggleAllBtn.allDone {
+  color: var(--color-primary);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 8px;
+}
+
+.noItems {
+  padding: 32px;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
